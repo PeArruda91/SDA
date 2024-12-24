@@ -1,0 +1,821 @@
+[
+  {
+    "question": "Qual é a função principal do 'Bao Gang' segundo a Medicina Chinesa?",
+    "options": [
+      {
+        "text": "Regulação do Sangue e do Qi no fígado",
+        "isCorrect": false
+      },
+      {
+        "text": "Garantir a sobrevivência, promover o nascimento e escoar energias turvas",
+        "isCorrect": true
+      },
+      {
+        "text": "Ativar a circulação de energia nos canais curiosos",
+        "isCorrect": false
+      },
+      {
+        "text": "Harmonizar o Qi e o Yang do baço",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Qual órgão está diretamente relacionado à harmonização do Qi na mulher, segundo a Medicina Chinesa?",
+    "options": [
+      {
+        "text": "Pulmão",
+        "isCorrect": false
+      },
+      {
+        "text": "Fígado",
+        "isCorrect": true
+      },
+      {
+        "text": "Coração",
+        "isCorrect": false
+      },
+      {
+        "text": "Estômago",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Quais são os três principais órgãos que nutrem o 'Bao Gang'?",
+    "options": [
+      {
+        "text": "Coração, Pulmão, Baço",
+        "isCorrect": false
+      },
+      {
+        "text": "Rim, Fígado, Baço",
+        "isCorrect": true
+      },
+      {
+        "text": "Estômago, Fígado, Pulmão",
+        "isCorrect": false
+      },
+      {
+        "text": "Coração, Rim, Estômago",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Qual canal curioso é conhecido por estar mais relacionado à fertilidade?",
+    "options": [
+      {
+        "text": "Ren Mai",
+        "isCorrect": true
+      },
+      {
+        "text": "Du Mai",
+        "isCorrect": false
+      },
+      {
+        "text": "Chong Mai",
+        "isCorrect": false
+      },
+      {
+        "text": "Yin Qiao Mai",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Qual é o principal objetivo da acupuntura durante a gravidez na Medicina Chinesa?",
+    "options": [
+      {
+        "text": "Regular o Yang do Rim",
+        "isCorrect": false
+      },
+      {
+        "text": "Harmonizar o Qi e fortalecer o Baço",
+        "isCorrect": false
+      },
+      {
+        "text": "Promover o fluxo adequado nos Canais Curiosos",
+        "isCorrect": true
+      },
+      {
+        "text": "Reduzir o excesso de Yin no Fígado",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "O que pode causar irregularidades menstruais, segundo a Medicina Chinesa?",
+    "options": [
+      {
+        "text": "Excesso de calor no Baço",
+        "isCorrect": false
+      },
+      {
+        "text": "Frio no Utero, Deficiência do Qi ou do Sangue",
+        "isCorrect": true
+      },
+      {
+        "text": "Deficiência do Qi do Pulmão",
+        "isCorrect": false
+      },
+      {
+        "text": "Excesso de umidade nos Rins",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Qual emoção está mais associada a desequilíbrios no Fígado?",
+    "options": [
+      {
+        "text": "Alegria",
+        "isCorrect": false
+      },
+      {
+        "text": "Raiva",
+        "isCorrect": true
+      },
+      {
+        "text": "Tristeza",
+        "isCorrect": false
+      },
+      {
+        "text": "Medo",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Que condição pode ser tratada com a fórmula 'Gui Zhi Fu Ling Wan'?",
+    "options": [
+      {
+        "text": "Estagnação de Sangue",
+        "isCorrect": true
+      },
+      {
+        "text": "Deficiência de Qi do Baço",
+        "isCorrect": false
+      },
+      {
+        "text": "Frio no Estômago",
+        "isCorrect": false
+      },
+      {
+        "text": "Excesso de Yang no Coração",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Qual das seguintes condições NÃO é considerada um fator etiológico em ginecologia segundo a Medicina Chinesa?",
+    "options": [
+      {
+        "text": "Estresse emocional",
+        "isCorrect": false
+      },
+      {
+        "text": "Dietas irregulares",
+        "isCorrect": false
+      },
+      {
+        "text": "Frio externo",
+        "isCorrect": false
+      },
+      {
+        "text": "Excesso de proteína",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Qual é o principal canal curioso que conecta o Fígado, Baço e Rim ao sistema reprodutor?",
+    "options": [
+      {
+        "text": "Chong Mai",
+        "isCorrect": true
+      },
+      {
+        "text": "Ren Mai",
+        "isCorrect": false
+      },
+      {
+        "text": "Du Mai",
+        "isCorrect": false
+      },
+      {
+        "text": "Dai Mai",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Qual é uma causa comum de infertilidade, de acordo com a Medicina Chinesa?",
+    "options": [
+      {
+        "text": "Deficiência de Yang do Pulmão",
+        "isCorrect": false
+      },
+      {
+        "text": "Excesso de Qi do Coração",
+        "isCorrect": false
+      },
+      {
+        "text": "Frio no Utero",
+        "isCorrect": true
+      },
+      {
+        "text": "Estagnação do Qi do Pulmão",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Quais canais curiosos são mais utilizados no tratamento da menstruação dolorosa?",
+    "options": [
+      {
+        "text": "Ren Mai e Du Mai",
+        "isCorrect": false
+      },
+      {
+        "text": "Chong Mai e Ren Mai",
+        "isCorrect": true
+      },
+      {
+        "text": "Du Mai e Dai Mai",
+        "isCorrect": false
+      },
+      {
+        "text": "Chong Mai e Dai Mai",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "O que a deficiência de Yin do Rim pode causar durante a menopausa?",
+    "options": [
+      {
+        "text": "Calor nos cinco centros",
+        "isCorrect": true
+      },
+      {
+        "text": "Excesso de Qi no Baço",
+        "isCorrect": false
+      },
+      {
+        "text": "Estagnação do Qi do Fígado",
+        "isCorrect": false
+      },
+      {
+        "text": "Frio no Utero",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Qual órgão é considerado a raiz do céu anterior na Medicina Chinesa?",
+    "options": [
+      {
+        "text": "Baço",
+        "isCorrect": false
+      },
+      {
+        "text": "Fígado",
+        "isCorrect": false
+      },
+      {
+        "text": "Rim",
+        "isCorrect": true
+      },
+      {
+        "text": "Coração",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Quais são os principais fatores emocionais que impactam o ciclo menstrual?",
+    "options": [
+      {
+        "text": "Raiva, tristeza e medo",
+        "isCorrect": true
+      },
+      {
+        "text": "Medo, alegria e euforia",
+        "isCorrect": false
+      },
+      {
+        "text": "Ansiedade, vergonha e tristeza",
+        "isCorrect": false
+      },
+      {
+        "text": "Medo, alegria e neutralidade",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Qual é a função do canal Du Mai?",
+    "options": [
+      {
+        "text": "Armazenar Sangue",
+        "isCorrect": false
+      },
+      {
+        "text": "Promover a circulação de Qi nos órgãos internos",
+        "isCorrect": false
+      },
+      {
+        "text": "Conectar os meridianos Yang",
+        "isCorrect": true
+      },
+      {
+        "text": "Harmonizar os meridianos Yin",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Qual é a importância do Qi no processo menstrual?",
+    "options": [
+      {
+        "text": "Prevenir o acúmulo de Sangue",
+        "isCorrect": false
+      },
+      {
+        "text": "Promover a descida do Sangue",
+        "isCorrect": true
+      },
+      {
+        "text": "Harmonizar os líquidos internos",
+        "isCorrect": false
+      },
+      {
+        "text": "Controlar a circulação de Yin nos órgãos",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Qual canal curioso é mais utilizado no tratamento da infertilidade?",
+    "options": [
+      {
+        "text": "Ren Mai",
+        "isCorrect": true
+      },
+      {
+        "text": "Chong Mai",
+        "isCorrect": false
+      },
+      {
+        "text": "Du Mai",
+        "isCorrect": false
+      },
+      {
+        "text": "Dai Mai",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Qual padrão energético está associado à estagnação do Qi do Fígado?",
+    "options": [
+      {
+        "text": "Calor no Baço",
+        "isCorrect": false
+      },
+      {
+        "text": "Raiva e estresse",
+        "isCorrect": true
+      },
+      {
+        "text": "Deficiência de Yin no Rim",
+        "isCorrect": false
+      },
+      {
+        "text": "Excesso de Yang no Coração",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "O que caracteriza um padrão de deficiência de Sangue?",
+    "options": [
+      {
+        "text": "Cansaço, pele pálida e tontura",
+        "isCorrect": true
+      },
+      {
+        "text": "Dor intensa e sensação de calor",
+        "isCorrect": false
+      },
+      {
+        "text": "Estagnação de Qi e Frio no corpo",
+        "isCorrect": false
+      },
+      {
+        "text": "Ansiedade, calor e transpiração",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Quais são os sintomas de estagnação de Qi do Fígado em mulheres?",
+    "options": [
+      {
+        "text": "Palidez, cansaço e frio nas extremidades",
+        "isCorrect": false
+      },
+      {
+        "text": "Irritabilidade, dor nos seios e ciclo irregular",
+        "isCorrect": true
+      },
+      {
+        "text": "Calor nas mãos, insônia e fome constante",
+        "isCorrect": false
+      },
+      {
+        "text": "Dor lombar, cãibras e formigamento",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Qual é uma aplicação terapêutica do ponto SP6 na ginecologia?",
+    "options": [
+      {
+        "text": "Alívio de dor abdominal",
+        "isCorrect": false
+      },
+      {
+        "text": "Harmonização do Yang do Rim",
+        "isCorrect": false
+      },
+      {
+        "text": "Fortalecimento do Qi do Baço",
+        "isCorrect": false
+      },
+      {
+        "text": "Regular o ciclo menstrual",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Quais são as causas comuns de amenorreia segundo a Medicina Chinesa?",
+    "options": [
+      {
+        "text": "Deficiência de Yin, Frio no Utero e Estagnação de Qi",
+        "isCorrect": true
+      },
+      {
+        "text": "Excesso de Yang, Calor do Fígado e Insônia",
+        "isCorrect": false
+      },
+      {
+        "text": "Umidade-Calor no Estômago e Sangue em excesso",
+        "isCorrect": false
+      },
+      {
+        "text": "Deficiência de Qi do Pulmão e Alegria em excesso",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Qual é o princípio terapêutico principal para tratar menorragia?",
+    "options": [
+      {
+        "text": "Tonificar o Qi e parar o Sangue",
+        "isCorrect": true
+      },
+      {
+        "text": "Aumentar o Yang do Rim",
+        "isCorrect": false
+      },
+      {
+        "text": "Regular o Qi do Coração",
+        "isCorrect": false
+      },
+      {
+        "text": "Eliminar Umidade do Baço",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "O que significa um padrão de Vazio de Calor na menopausa?",
+    "options": [
+      {
+        "text": "Falta de energia e Frio no Baço",
+        "isCorrect": false
+      },
+      {
+        "text": "Calor nos cinco centros e insônia",
+        "isCorrect": true
+      },
+      {
+        "text": "Estagnação de Qi e Frio no Utero",
+        "isCorrect": false
+      },
+      {
+        "text": "Deficiência de Sangue e pele oleosa",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Qual é o principal uso da erva Dang Gui na ginecologia?",
+    "options": [
+      {
+        "text": "Tonificar o Qi do Baço",
+        "isCorrect": false
+      },
+      {
+        "text": "Harmonizar o Sangue e aliviar dor",
+        "isCorrect": true
+      },
+      {
+        "text": "Eliminar Umidade do Estômago",
+        "isCorrect": false
+      },
+      {
+        "text": "Tonificar o Yang do Rim",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "O que é necessário para harmonizar o Chong Mai?",
+    "options": [
+      {
+        "text": "Eliminar Calor e fortalecer o Qi",
+        "isCorrect": false
+      },
+      {
+        "text": "Nutrir Sangue e mover estagnações",
+        "isCorrect": true
+      },
+      {
+        "text": "Tonificar o Yang do Rim e eliminar Frio",
+        "isCorrect": false
+      },
+      {
+        "text": "Equilibrar o Qi do Pulmão e do Baço",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Qual é o impacto da Estagnação de Sangue no ciclo menstrual?",
+    "options": [
+      {
+        "text": "Causa períodos irregulares com dor",
+        "isCorrect": true
+      },
+      {
+        "text": "Aumenta o fluxo menstrual sem dor",
+        "isCorrect": false
+      },
+      {
+        "text": "Prolonga o ciclo sem alterar o fluxo",
+        "isCorrect": false
+      },
+      {
+        "text": "Provoca amenorreia sem outros sintomas",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Qual padrão é indicado por dor pélvica constante e presença de muco?",
+    "options": [
+      {
+        "text": "Umidade-Calor no Utero",
+        "isCorrect": true
+      },
+      {
+        "text": "Estagnação de Qi do Pulmão",
+        "isCorrect": false
+      },
+      {
+        "text": "Deficiência de Yang do Baço",
+        "isCorrect": false
+      },
+      {
+        "text": "Calor do Coração e Fígado",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "O que a deficiência de Yang do Rim pode causar em mulheres?",
+    "options": [
+      {
+        "text": "Calor noturno, irritabilidade",
+        "isCorrect": false
+      },
+      {
+        "text": "Frio no Utero, infertilidade",
+        "isCorrect": true
+      },
+      {
+        "text": "Estagnação de Qi, dor abdominal",
+        "isCorrect": false
+      },
+      {
+        "text": "Fluxo menstrual intenso sem dor",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Quais canais curiosos são mais associados ao suporte na gravidez?",
+    "options": [
+      {
+        "text": "Ren Mai e Du Mai",
+        "isCorrect": false
+      },
+      {
+        "text": "Chong Mai e Ren Mai",
+        "isCorrect": true
+      },
+      {
+        "text": "Du Mai e Dai Mai",
+        "isCorrect": false
+      },
+      {
+        "text": "Chong Mai e Dai Mai",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Quais são os principais sintomas de deficiência de Qi do Baço?",
+    "options": [
+      {
+        "text": "Cansaço, hemorragia e falta de apetite",
+        "isCorrect": true
+      },
+      {
+        "text": "Dor lombar, insônia e sede excessiva",
+        "isCorrect": false
+      },
+      {
+        "text": "Fome constante, raiva e dor nos seios",
+        "isCorrect": false
+      },
+      {
+        "text": "Sensação de calor, pele seca e cãibras",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Qual é o papel do Yin e Yang na regulação do ciclo menstrual?",
+    "options": [
+      {
+        "text": "Harmonizar emoções e eliminar calor",
+        "isCorrect": false
+      },
+      {
+        "text": "Promover o equilíbrio de Qi nos canais curiosos",
+        "isCorrect": false
+      },
+      {
+        "text": "Nutrir o Sangue e aquecer o Utero",
+        "isCorrect": true
+      },
+      {
+        "text": "Controlar o fluxo e estabilizar o ciclo",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Qual é o efeito da Estagnação de Qi no ciclo menstrual?",
+    "options": [
+      {
+        "text": "Amenorreia sem dor",
+        "isCorrect": false
+      },
+      {
+        "text": "Cólica e períodos irregulares",
+        "isCorrect": true
+      },
+      {
+        "text": "Fluxo leve e regular",
+        "isCorrect": false
+      },
+      {
+        "text": "Dor abdominal constante sem fluxo",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "O que é indicado por Sangue escuro com coágulos durante a menstruação?",
+    "options": [
+      {
+        "text": "Estagnação de Sangue",
+        "isCorrect": true
+      },
+      {
+        "text": "Deficiência de Qi",
+        "isCorrect": false
+      },
+      {
+        "text": "Excesso de Yang",
+        "isCorrect": false
+      },
+      {
+        "text": "Frio no Utero",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Quais são os sintomas típicos de um padrão de Umidade-Calor no Utero?",
+    "options": [
+      {
+        "text": "Dor pélvica, leucorreia amarela",
+        "isCorrect": true
+      },
+      {
+        "text": "Dor lombar, urina clara",
+        "isCorrect": false
+      },
+      {
+        "text": "Hemorragia abundante, sede",
+        "isCorrect": false
+      },
+      {
+        "text": "Fluxo leve, sem coágulos",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Qual é a principal função do ponto LIV3 na ginecologia?",
+    "options": [
+      {
+        "text": "Regular o Qi do Fígado",
+        "isCorrect": true
+      },
+      {
+        "text": "Fortalecer o Yang do Rim",
+        "isCorrect": false
+      },
+      {
+        "text": "Nutrir o Sangue do Coração",
+        "isCorrect": false
+      },
+      {
+        "text": "Eliminar Umidade-Calor",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Qual padrão pode causar períodos menstruais prolongados?",
+    "options": [
+      {
+        "text": "Deficiência de Yang do Rim",
+        "isCorrect": false
+      },
+      {
+        "text": "Calor no Sangue",
+        "isCorrect": true
+      },
+      {
+        "text": "Frio no Baço",
+        "isCorrect": false
+      },
+      {
+        "text": "Estagnação de Qi do Pulmão",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Qual é uma indicação para uso de acupuntura no ponto ST36?",
+    "options": [
+      {
+        "text": "Fortalecer o Baço e o Estômago",
+        "isCorrect": true
+      },
+      {
+        "text": "Eliminar Calor do Sangue",
+        "isCorrect": false
+      },
+      {
+        "text": "Regular o Qi do Pulmão",
+        "isCorrect": false
+      },
+      {
+        "text": "Aumentar o Yin do Rim",
+        "isCorrect": false
+      }
+    ]
+  }
+]

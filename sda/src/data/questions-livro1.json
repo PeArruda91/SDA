@@ -1,0 +1,311 @@
+{
+    "questions": [
+      {
+        "question": "Qual é o principal objetivo de combinar os pontos de acupuntura?",
+        "options": [
+          { "text": "Aumentar a circulação de sangue", "isCorrect": false },
+          { "text": "Promover um efeito sinérgico no tratamento", "isCorrect": true },
+          { "text": "Reduzir a duração das sessões de acupuntura", "isCorrect": false },
+          { "text": "Evitar efeitos adversos da estimulação", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "A combinação de LI4 e LR3 é conhecida por qual nome?",
+        "options": [
+          { "text": "Os Quatro Portões", "isCorrect": true },
+          { "text": "Os Pontos de Fuga", "isCorrect": false },
+          { "text": "A Chave da Vida", "isCorrect": false },
+          { "text": "Os Guardiões do Qi", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Qual combinação de pontos é frequentemente usada para tonificar o Qi?",
+        "options": [
+          { "text": "ST36 e SP6", "isCorrect": true },
+          { "text": "LI4 e LR3", "isCorrect": false },
+          { "text": "PC6 e SP4", "isCorrect": false },
+          { "text": "GV20 e LI11", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Para tratar dores de cabeça frontais, qual par de pontos é mais indicado?",
+        "options": [
+          { "text": "LI4 e ST44", "isCorrect": true },
+          { "text": "BL10 e GV20", "isCorrect": false },
+          { "text": "GB20 e LR3", "isCorrect": false },
+          { "text": "SP6 e HT7", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Qual ponto é frequentemente combinado com SP6 para problemas ginecológicos?",
+        "options": [
+          { "text": "ST36", "isCorrect": false },
+          { "text": "LR3", "isCorrect": true },
+          { "text": "PC6", "isCorrect": false },
+          { "text": "GV20", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Quais pontos são utilizados para harmonizar o Qi do fígado?",
+        "options": [
+          { "text": "LR3 e GB34", "isCorrect": true },
+          { "text": "LI4 e ST36", "isCorrect": false },
+          { "text": "PC6 e SP4", "isCorrect": false },
+          { "text": "GV20 e SP6", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "A combinação de PC6 e SP4 é conhecida por tratar o quê?",
+        "options": [
+          { "text": "Distúrbios do Estômago", "isCorrect": true },
+          { "text": "Dores lombares", "isCorrect": false },
+          { "text": "Insônia crônica", "isCorrect": false },
+          { "text": "Problemas respiratórios", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Para aliviar ansiedade, qual combinação é mais recomendada?",
+        "options": [
+          { "text": "HT7 e PC6", "isCorrect": true },
+          { "text": "LI4 e SP6", "isCorrect": false },
+          { "text": "BL23 e GV4", "isCorrect": false },
+          { "text": "LR3 e GB20", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Qual ponto é amplamente utilizado com GV20 para elevação do Qi?",
+        "options": [
+          { "text": "ST36", "isCorrect": true },
+          { "text": "SP6", "isCorrect": false },
+          { "text": "LI4", "isCorrect": false },
+          { "text": "PC6", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Quais pontos são usados para tratar insônia relacionada a distúrbios de coração?",
+        "options": [
+          { "text": "HT7 e SP6", "isCorrect": true },
+          { "text": "LI4 e LR3", "isCorrect": false },
+          { "text": "ST36 e GV20", "isCorrect": false },
+          { "text": "PC6 e BL23", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "A combinação de GB20 e LI4 é mais eficaz para tratar o quê?",
+        "options": [
+          { "text": "Dores de cabeça tensionais", "isCorrect": true },
+          { "text": "Distúrbios digestivos", "isCorrect": false },
+          { "text": "Insônia", "isCorrect": false },
+          { "text": "Dores lombares", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Qual combinação de pontos é usada para melhorar a imunidade?",
+        "options": [
+          { "text": "ST36 e LI10", "isCorrect": true },
+          { "text": "LR3 e GB34", "isCorrect": false },
+          { "text": "PC6 e SP4", "isCorrect": false },
+          { "text": "HT7 e SP6", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Para reduzir o calor interno, qual combinação é indicada?",
+        "options": [
+          { "text": "LI11 e ST44", "isCorrect": true },
+          { "text": "SP6 e ST36", "isCorrect": false },
+          { "text": "GB20 e LI4", "isCorrect": false },
+          { "text": "LR3 e GB34", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Qual ponto é frequentemente combinado com BL23 para fortalecer os rins?",
+        "options": [
+          { "text": "GV4", "isCorrect": true },
+          { "text": "SP6", "isCorrect": false },
+          { "text": "LI4", "isCorrect": false },
+          { "text": "HT7", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Quais pontos são utilizados para tratar dor ciática?",
+        "options": [
+          { "text": "BL40 e GB30", "isCorrect": true },
+          { "text": "LI4 e ST36", "isCorrect": false },
+          { "text": "PC6 e SP4", "isCorrect": false },
+          { "text": "GV20 e SP6", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "A combinação de ST36 e SP9 é eficaz para tratar qual condição?",
+        "options": [
+          { "text": "Umidade interna", "isCorrect": true },
+          { "text": "Estagnação do Qi", "isCorrect": false },
+          { "text": "Deficiência de sangue", "isCorrect": false },
+          { "text": "Insônia crônica", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Quais pontos são recomendados para melhorar a digestão?",
+        "options": [
+          { "text": "ST36 e CV12", "isCorrect": true },
+          { "text": "LI4 e ST44", "isCorrect": false },
+          { "text": "LR3 e GB34", "isCorrect": false },
+          { "text": "HT7 e SP6", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "A combinação de PC6 e HT7 é usada para tratar o quê?",
+        "options": [
+          { "text": "Ansiedade e palpitações", "isCorrect": true },
+          { "text": "Dor lombar", "isCorrect": false },
+          { "text": "Distúrbios menstruais", "isCorrect": false },
+          { "text": "Tensão muscular", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Quais pontos são indicados para harmonizar o Qi do estômago?",
+        "options": [
+          { "text": "PC6 e ST36", "isCorrect": true },
+          { "text": "LI4 e ST44", "isCorrect": false },
+          { "text": "LR3 e GB34", "isCorrect": false },
+          { "text": "GV20 e SP6", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Para tratar sintomas de tontura, quais pontos são indicados?",
+        "options": [
+          { "text": "GB20 e ST36", "isCorrect": true },
+          { "text": "LI4 e SP6", "isCorrect": false },
+          { "text": "PC6 e HT7", "isCorrect": false },
+          { "text": "LR3 e GB34", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Qual combinação de pontos é utilizada para aliviar sintomas de asma?",
+        "options": [
+          { "text": "BL13 e CV22", "isCorrect": true },
+          { "text": "ST36 e SP6", "isCorrect": false },
+          { "text": "LI4 e PC6", "isCorrect": false },
+          { "text": "GV20 e BL23", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Quais pontos são usados para fortalecer o Baço?",
+        "options": [
+          { "text": "ST36 e SP3", "isCorrect": true },
+          { "text": "LI4 e GB34", "isCorrect": false },
+          { "text": "LR3 e PC6", "isCorrect": false },
+          { "text": "BL40 e ST44", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Para tratar sintomas de menopausa, qual combinação de pontos é recomendada?",
+        "options": [
+          { "text": "SP6 e HT7", "isCorrect": true },
+          { "text": "LR3 e GB20", "isCorrect": false },
+          { "text": "ST36 e LI11", "isCorrect": false },
+          { "text": "PC6 e SP4", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Quais pontos são indicados para aliviar náuseas?",
+        "options": [
+          { "text": "PC6 e ST36", "isCorrect": true },
+          { "text": "LI4 e SP6", "isCorrect": false },
+          { "text": "BL20 e GB34", "isCorrect": false },
+          { "text": "GV20 e LR3", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "A combinação de LI11 e ST36 é usada para tratar o quê?",
+        "options": [
+          { "text": "Calor interno e fadiga", "isCorrect": true },
+          { "text": "Estagnação do Qi e tontura", "isCorrect": false },
+          { "text": "Dores de cabeça e insônia", "isCorrect": false },
+          { "text": "Deficiência de sangue e palpitações", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Quais pontos são utilizados para aliviar dor lombar?",
+        "options": [
+          { "text": "BL23 e GV3", "isCorrect": true },
+          { "text": "LI4 e LR3", "isCorrect": false },
+          { "text": "PC6 e ST36", "isCorrect": false },
+          { "text": "SP6 e BL40", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Para melhorar a circulação de sangue, quais pontos são indicados?",
+        "options": [
+          { "text": "SP10 e BL17", "isCorrect": true },
+          { "text": "LI4 e GB34", "isCorrect": false },
+          { "text": "ST36 e PC6", "isCorrect": false },
+          { "text": "LR3 e SP6", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "A combinação de GV20 e LI4 é recomendada para tratar o quê?",
+        "options": [
+          { "text": "Tonturas e dores de cabeça", "isCorrect": true },
+          { "text": "Insônia e palpitações", "isCorrect": false },
+          { "text": "Náuseas e vômitos", "isCorrect": false },
+          { "text": "Fadiga crônica", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Quais pontos são usados para tratar cólicas menstruais?",
+        "options": [
+          { "text": "SP6 e CV4", "isCorrect": true },
+          { "text": "LI11 e ST36", "isCorrect": false },
+          { "text": "BL23 e GV4", "isCorrect": false },
+          { "text": "PC6 e SP9", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Quais pontos são eficazes para reduzir a ansiedade?",
+        "options": [
+          { "text": "HT7 e PC6", "isCorrect": true },
+          { "text": "SP6 e LI4", "isCorrect": false },
+          { "text": "BL23 e GV20", "isCorrect": false },
+          { "text": "ST36 e SP9", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Quais pontos são recomendados para tratar hipertensão?",
+        "options": [
+          { "text": "LI11 e GB20", "isCorrect": true },
+          { "text": "LR3 e SP6", "isCorrect": false },
+          { "text": "PC6 e ST36", "isCorrect": false },
+          { "text": "BL23 e CV4", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Quais pontos são usados para aliviar constipação?",
+        "options": [
+          { "text": "ST25 e SP15", "isCorrect": true },
+          { "text": "LI11 e ST44", "isCorrect": false },
+          { "text": "BL40 e GB30", "isCorrect": false },
+          { "text": "GV20 e LI4", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Para tratar enxaqueca, qual combinação de pontos é indicada?",
+        "options": [
+          { "text": "GB20 e LR3", "isCorrect": true },
+          { "text": "LI4 e ST36", "isCorrect": false },
+          { "text": "HT7 e SP6", "isCorrect": false },
+          { "text": "ST44 e PC6", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Quais pontos são recomendados para aliviar edema?",
+        "options": [
+          { "text": "SP9 e KI3", "isCorrect": true },
+          { "text": "LI4 e ST36", "isCorrect": false },
+          { "text": "PC6 e GB34", "isCorrect": false },
+          { "text": "HT7 e BL23", "isCorrect": false }
+        ]
+      }
+    ]
+  }
+  

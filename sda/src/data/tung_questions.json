@@ -1,0 +1,48 @@
+[
+    {
+      "question": "Qual é o ponto Tung conhecido como 'Rins Três Esquinas'?",
+      "options": [
+        { "text": "88.01", "isCorrect": true },
+        { "text": "44.01", "isCorrect": false },
+        { "text": "22.01", "isCorrect": false },
+        { "text": "66.01", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Qual ponto Tung é usado para tratar asma?",
+      "options": [
+        { "text": "11.17", "isCorrect": true },
+        { "text": "22.17", "isCorrect": false },
+        { "text": "77.17", "isCorrect": false },
+        { "text": "88.17", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Qual ponto é localizado na linha do tendão de Aquiles?",
+      "options": [
+        { "text": "88.09", "isCorrect": true },
+        { "text": "44.09", "isCorrect": false },
+        { "text": "22.09", "isCorrect": false },
+        { "text": "66.09", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Qual ponto Tung é conhecido por aliviar dores crônicas?",
+      "options": [
+        { "text": "22.06", "isCorrect": true },
+        { "text": "77.06", "isCorrect": false },
+        { "text": "88.06", "isCorrect": false },
+        { "text": "44.06", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Qual ponto Tung é mais usado para insônia?",
+      "options": [
+        { "text": "11.24", "isCorrect": true },
+        { "text": "22.24", "isCorrect": false },
+        { "text": "77.24", "isCorrect": false },
+        { "text": "88.24", "isCorrect": false }
+      ]
+    }
+  ]
+  

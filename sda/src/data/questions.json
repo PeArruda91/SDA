@@ -1,0 +1,165 @@
+[
+    {
+      "question": "Qual é o ponto de acupuntura conhecido como 'He Gu'?",
+      "options": [
+        { "text": "Ponto IG4", "isCorrect": true },
+        { "text": "Ponto F3", "isCorrect": false },
+        { "text": "Ponto VB20", "isCorrect": false },
+        { "text": "Ponto BP6", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Qual é o principal ponto localizado abaixo do joelho?",
+      "options": [
+        { "text": "Ponto Zu San Li (E36)", "isCorrect": true },
+        { "text": "Ponto Tai Chong (F3)", "isCorrect": false },
+        { "text": "Ponto Yin Tang", "isCorrect": false },
+        { "text": "Ponto Shen Men (C7)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Qual ponto é usado para aliviar dores de cabeça tensionais?",
+      "options": [
+        { "text": "Ponto Tai Yang", "isCorrect": true },
+        { "text": "Ponto Bai Hui (VG20)", "isCorrect": false },
+        { "text": "Ponto Da Zhui (VG14)", "isCorrect": false },
+        { "text": "Ponto Nei Guan (PC6)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Qual ponto é conhecido por fortalecer o sistema imunológico?",
+      "options": [
+        { "text": "Ponto Zu San Li (E36)", "isCorrect": true },
+        { "text": "Ponto LI4", "isCorrect": false },
+        { "text": "Ponto Shen Men (C7)", "isCorrect": false },
+        { "text": "Ponto Yin Tang", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Qual ponto é usado para aliviar insônia?",
+      "options": [
+        { "text": "Ponto Shen Men (C7)", "isCorrect": true },
+        { "text": "Ponto Tai Chong (F3)", "isCorrect": false },
+        { "text": "Ponto IG4", "isCorrect": false },
+        { "text": "Ponto Zu San Li (E36)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Qual é o ponto conhecido como 'Terceiro Olho'?",
+      "options": [
+        { "text": "Ponto Yin Tang", "isCorrect": true },
+        { "text": "Ponto Bai Hui (VG20)", "isCorrect": false },
+        { "text": "Ponto Tai Yang", "isCorrect": false },
+        { "text": "Ponto IG4", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Qual ponto é frequentemente usado para aliviar náuseas?",
+      "options": [
+        { "text": "Ponto Nei Guan (PC6)", "isCorrect": true },
+        { "text": "Ponto Zu San Li (E36)", "isCorrect": false },
+        { "text": "Ponto Yin Tang", "isCorrect": false },
+        { "text": "Ponto Shen Men (C7)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Qual ponto é localizado no topo da cabeça?",
+      "options": [
+        { "text": "Ponto Bai Hui (VG20)", "isCorrect": true },
+        { "text": "Ponto Yin Tang", "isCorrect": false },
+        { "text": "Ponto Tai Yang", "isCorrect": false },
+        { "text": "Ponto Nei Guan (PC6)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Qual ponto é usado para reduzir estresse e ansiedade?",
+      "options": [
+        { "text": "Ponto Tai Chong (F3)", "isCorrect": true },
+        { "text": "Ponto IG4", "isCorrect": false },
+        { "text": "Ponto Zu San Li (E36)", "isCorrect": false },
+        { "text": "Ponto Bai Hui (VG20)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Qual ponto é chamado de 'Porta dos Espíritos'?",
+      "options": [
+        { "text": "Ponto Shen Men (C7)", "isCorrect": true },
+        { "text": "Ponto Bai Hui (VG20)", "isCorrect": false },
+        { "text": "Ponto Tai Yang", "isCorrect": false },
+        { "text": "Ponto Nei Guan (PC6)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Qual ponto é chamado de 'Porta do Céu'?",
+      "options": [
+        { "text": "Ponto Nei Guan (PC6)", "isCorrect": true },
+        { "text": "Ponto Tai Chong (F3)", "isCorrect": false },
+        { "text": "Ponto Shen Men (C7)", "isCorrect": false },
+        { "text": "Ponto Zu San Li (E36)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Qual ponto é usado para tratar dores nas costas?",
+      "options": [
+        { "text": "Ponto Da Zhui (VG14)", "isCorrect": true },
+        { "text": "Ponto Tai Chong (F3)", "isCorrect": false },
+        { "text": "Ponto IG4", "isCorrect": false },
+        { "text": "Ponto Shen Men (C7)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Qual ponto é conhecido por aliviar enxaquecas?",
+      "options": [
+        { "text": "Ponto Tai Yang", "isCorrect": true },
+        { "text": "Ponto Nei Guan (PC6)", "isCorrect": false },
+        { "text": "Ponto IG4", "isCorrect": false },
+        { "text": "Ponto Bai Hui (VG20)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Qual ponto é localizado no meio da palma da mão?",
+      "options": [
+        { "text": "Ponto Lao Gong (PC8)", "isCorrect": true },
+        { "text": "Ponto Shen Men (C7)", "isCorrect": false },
+        { "text": "Ponto Tai Chong (F3)", "isCorrect": false },
+        { "text": "Ponto Yin Tang", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Qual ponto é frequentemente usado para aliviar alergias respiratórias?",
+      "options": [
+        { "text": "Ponto Ying Xiang (IG20)", "isCorrect": true },
+        { "text": "Ponto Nei Guan (PC6)", "isCorrect": false },
+        { "text": "Ponto Tai Chong (F3)", "isCorrect": false },
+        { "text": "Ponto Zu San Li (E36)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Qual ponto é chamado de 'Ponto Mar da Energia'?",
+      "options": [
+        { "text": "Ponto Qi Hai (RM6)", "isCorrect": true },
+        { "text": "Ponto Shen Men (C7)", "isCorrect": false },
+        { "text": "Ponto Tai Yang", "isCorrect": false },
+        { "text": "Ponto IG4", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Qual ponto é conhecido por estimular a energia vital?",
+      "options": [
+        { "text": "Ponto Ming Men (VG4)", "isCorrect": true },
+        { "text": "Ponto Zu San Li (E36)", "isCorrect": false },
+        { "text": "Ponto Nei Guan (PC6)", "isCorrect": false },
+        { "text": "Ponto Tai Yang", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Qual ponto é conhecido por aliviar sinusite?",
+      "options": [
+        { "text": "Ponto Bi Tong", "isCorrect": true },
+        { "text": "Ponto Bai Hui (VG20)", "isCorrect": false },
+        { "text": "Ponto Shen Men (C7)", "isCorrect": false },
+        { "text": "Ponto Tai Chong (F3)", "isCorrect": false }
+      ]
+    }
+  ]
+  

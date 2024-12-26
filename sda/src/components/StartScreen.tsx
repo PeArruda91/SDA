@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import logo from "../assets/logo.png";
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import Atlas from "./Atlas"; // Certifique-se de que o caminho está correto
+import Atlas from "./Atlas"; 
 
 interface StartScreenProps {
   onStartQuiz: (quizType: "acupuncture" | "tung") => void;
@@ -24,7 +24,7 @@ const StartScreen: React.FC<StartScreenProps> = ({ onStartQuiz }) => {
             data-tooltip="Teste seus conhecimentos sobre acupuntura!"
             onClick={() => onStartQuiz("acupuncture")}
           >
-            Começar Quiz de Acupuntura
+            Quiz sobre Acupuntura Sistêmica 
           </button>
           <button
             className="start-button"

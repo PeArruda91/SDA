@@ -17,6 +17,8 @@ const Quiz: React.FC<QuizProps> = ({ quizType, onGoBack }) => {
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   const [showModal, setShowModal] = useState(false);
   const [timeLeft, setTimeLeft] = useState(10);
+  const [helpUsed, setHelpUsed] = useState({ eliminate: 0, skip: 0 });
+  const [eliminatedOptions, setEliminatedOptions] = useState<number[]>([]);
 
   useEffect(() => {
     const questions =
@@ -49,6 +51,10 @@ const Quiz: React.FC<QuizProps> = ({ quizType, onGoBack }) => {
     return () => clearInterval(timer);
   }, [currentQuestionIndex, shuffledQuestions]);
 
+  useEffect(() => {
+    setEliminatedOptions([]);
+  }, [currentQuestionIndex]);
+
   const handleAnswer = (isCorrect: boolean) => {
     setIsCorrect(isCorrect);
 
@@ -72,6 +78,8 @@ const Quiz: React.FC<QuizProps> = ({ quizType, onGoBack }) => {
     setCurrentQuestionIndex(0);
     setShowModal(false);
     setIsCorrect(null);
+    setHelpUsed({ eliminate: 0, skip: 0 });
+    setEliminatedOptions([]);
 
     const questions =
       quizType === "acupuncture" ? acupunctureQuestions : tungQuestions;
@@ -82,6 +90,26 @@ const Quiz: React.FC<QuizProps> = ({ quizType, onGoBack }) => {
       }))
     );
     setShuffledQuestions(shuffled);
+  };
+
+  const handleEliminate = () => {
+    if (helpUsed.eliminate < 3 && currentQuestion) {
+      const incorrectOptions = currentQuestion.options
+        .map((option: any, index: number) => (!option.isCorrect ? index : -1))
+        .filter((index: number) => index !== -1);
+      const toEliminate = incorrectOptions.slice(0, 2);
+      setEliminatedOptions(toEliminate);
+      setHelpUsed((prev) => ({ ...prev, eliminate: prev.eliminate + 1 }));
+    }
+  };
+
+  const handleSkip = () => {
+    if (helpUsed.skip < 3) {
+      setScore((prev) => prev + 1);
+      setCurrentQuestionIndex((prev) => prev + 1);
+      setHelpUsed((prev) => ({ ...prev, skip: prev.skip + 1 }));
+      setIsCorrect(null);
+    }
   };
 
   const currentQuestion = shuffledQuestions[currentQuestionIndex];
@@ -96,7 +124,24 @@ const Quiz: React.FC<QuizProps> = ({ quizType, onGoBack }) => {
             question={currentQuestion}
             onAnswer={handleAnswer}
             isCorrect={isCorrect}
+            eliminatedOptions={eliminatedOptions}
           />
+          <div className="help-buttons">
+            <button
+              className="help-button"
+              onClick={handleEliminate}
+              disabled={helpUsed.eliminate >= 3}
+            >
+              <i className="fas fa-times-circle"></i> Eliminar 2 opções ({3 - helpUsed.eliminate} restantes)
+            </button>
+            <button
+              className="help-button"
+              onClick={handleSkip}
+              disabled={helpUsed.skip >= 3}
+            >
+              <i className="fas fa-forward"></i> Pular questão ({3 - helpUsed.skip} restantes)
+            </button>
+          </div>
         </>
       ) : (
         <div>

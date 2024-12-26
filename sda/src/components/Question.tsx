@@ -8,13 +8,14 @@ interface QuestionProps {
   };
   onAnswer: (isCorrect: boolean) => void;
   isCorrect: boolean | null;
+  eliminatedOptions: number[];
 }
 
-const Question: React.FC<QuestionProps> = ({ question, onAnswer, isCorrect }) => {
+const Question: React.FC<QuestionProps> = ({ question, onAnswer, isCorrect, eliminatedOptions }) => {
   return (
     <div>
       <h2 className="question">{question.question}</h2>
-      <Options options={question.options} onAnswer={onAnswer} isCorrect={isCorrect} />
+      <Options options={question.options} onAnswer={onAnswer} isCorrect={isCorrect} eliminatedOptions={eliminatedOptions} />
     </div>
   );
 };

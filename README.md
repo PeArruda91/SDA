@@ -19,7 +19,7 @@ Bem-vindo ao Gisa Massoterapeuta, uma aplicação interativa de quiz desenvolvid
 - **ESLint**: Ferramenta de linting para manter a qualidade do código.
 - **FontAwesome**: Ícones para melhorar a interface do usuário.
 
-## Estrutura do Projeto
+## Estrutura
 
 ```
 sda/

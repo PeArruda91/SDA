@@ -21,8 +21,7 @@ const Quiz: React.FC<QuizProps> = ({ quizType, onGoBack }) => {
   const [eliminatedOptions, setEliminatedOptions] = useState<number[]>([]);
 
   useEffect(() => {
-    const questions =
-      quizType === "acupuncture" ? acupunctureQuestions : tungQuestions;
+    const questions = quizType === "acupuncture" ? acupunctureQuestions : tungQuestions;
     const shuffled = shuffleArray(
       questions.map((question) => ({
         ...question,
@@ -36,7 +35,6 @@ const Quiz: React.FC<QuizProps> = ({ quizType, onGoBack }) => {
     if (!shuffledQuestions[currentQuestionIndex]) return;
 
     setTimeLeft(10);
-
     const timer = setInterval(() => {
       setTimeLeft((prev) => {
         if (prev <= 1) {
@@ -57,14 +55,12 @@ const Quiz: React.FC<QuizProps> = ({ quizType, onGoBack }) => {
 
   const handleAnswer = (isCorrect: boolean) => {
     setIsCorrect(isCorrect);
-
     if (isCorrect) {
       setScore((prev) => prev + 1);
       setCurrentQuestionIndex((prev) => prev + 1);
     } else {
       setShowModal(true);
     }
-
     setIsCorrect(null);
   };
 
@@ -80,9 +76,7 @@ const Quiz: React.FC<QuizProps> = ({ quizType, onGoBack }) => {
     setIsCorrect(null);
     setHelpUsed({ eliminate: 0, skip: 0 });
     setEliminatedOptions([]);
-
-    const questions =
-      quizType === "acupuncture" ? acupunctureQuestions : tungQuestions;
+    const questions = quizType === "acupuncture" ? acupunctureQuestions : tungQuestions;
     const shuffled = shuffleArray(
       questions.map((question) => ({
         ...question,

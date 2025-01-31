@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import logo from "../assets/logo.png";
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import Atlas from "./Atlas"; 
+import Atlas from "./Atlas";
+import SocialMedia from "./SocialMedia";
 
 interface StartScreenProps {
   onStartQuiz: (quizType: "acupuncture" | "tung") => void;
@@ -10,61 +11,43 @@ interface StartScreenProps {
 const StartScreen: React.FC<StartScreenProps> = ({ onStartQuiz }) => {
   const [activeTab, setActiveTab] = useState("quiz");
 
+  const renderTabContent = () => {
+    switch (activeTab) {
+      case "quiz":
+        return (
+          <>
+            <p className="start-subtitle">
+              Teste seus conhecimentos sobre Acupuntura e Técnica Tung em quizzes interativos e desafiadores.
+            </p>
+            <button
+              className="start-button"
+              data-tooltip="Teste seus conhecimentos sobre acupuntura!"
+              onClick={() => onStartQuiz("acupuncture")}
+            >
+              Quiz sobre Acupuntura Sistêmica 
+            </button>
+            <button
+              className="start-button"
+              onClick={() => onStartQuiz("tung")}
+            >
+              Quiz sobre Técnica Tung
+            </button>
+          </>
+        );
+      case "atlas":
+        return <Atlas />;
+      case "social":
+        return <SocialMedia />;
+      default:
+        return null;
+    }
+  };
+
   return (
     <div className="start-container">
       <img src={logo} alt="Logo" className="start-logo" />
       <h1 className="start-title">Descubra a Sabedoria da Medicina Tradicional Chinesa</h1>
-      {activeTab === "quiz" && (
-        <>
-          <p className="start-subtitle">
-            Teste seus conhecimentos sobre Acupuntura e Técnica Tung em quizzes interativos e desafiadores.
-          </p>
-          <button
-            className="start-button"
-            data-tooltip="Teste seus conhecimentos sobre acupuntura!"
-            onClick={() => onStartQuiz("acupuncture")}
-          >
-            Quiz sobre Acupuntura Sistêmica 
-          </button>
-          <button
-            className="start-button"
-            onClick={() => onStartQuiz("tung")}
-          >
-            Quiz sobre Técnica Tung
-          </button>
-        </>
-      )}
-      {activeTab === "atlas" && (
-        <Atlas />
-      )}
-      {activeTab === "social" && (
-        <footer className="footer">
-          <p>Entre em contato:</p>
-          <div className="social-icons">
-            <a
-              href="https://www.instagram.com/gisavenancio.masso"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-instagram"></i>
-            </a>
-            <a
-              href="https://wa.me/551198516-6565"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-whatsapp"></i>
-            </a>
-            <a
-              href="https://www.facebook.com/gisavenancio.masso"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-facebook"></i>
-            </a>
-          </div>
-        </footer>
-      )}
+      {renderTabContent()}
       <div className="tabs">
         <button className={`tab-button ${activeTab === "quiz" ? "active" : ""}`} onClick={() => setActiveTab("quiz")}>
           <i className="fas fa-gamepad"></i>

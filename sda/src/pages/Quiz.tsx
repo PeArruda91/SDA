@@ -26,6 +26,7 @@ const Quiz: React.FC = () => {
   const [shuffledQuestions, setShuffledQuestions] = useState<Question[]>([]);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   const [showModal, setShowModal] = useState(false);
+  const [mode, setMode] = useState("light");
 
   useEffect(() => {
     const shuffled = shuffleArray(
@@ -35,6 +36,14 @@ const Quiz: React.FC = () => {
       }))
     );
     setShuffledQuestions(shuffled);
+  }, []);
+
+  useEffect(() => {
+    const savedMode = localStorage.getItem("mode");
+    if (savedMode) {
+      setMode(savedMode);
+      document.body.classList.add(`${savedMode}-mode`);
+    }
   }, []);
 
   const handleAnswer = useCallback((isCorrect: boolean) => {
@@ -55,6 +64,14 @@ const Quiz: React.FC = () => {
     setShowModal(false);
   }, []);
 
+  const toggleMode = () => {
+    const newMode = mode === "light" ? "dark" : mode === "dark" ? "relax" : "light";
+    setMode(newMode);
+    document.body.classList.remove("light-mode", "dark-mode", "relax-mode");
+    document.body.classList.add(`${newMode}-mode`);
+    localStorage.setItem("mode", newMode);
+  };
+
   const currentQuestion = shuffledQuestions[currentQuestionIndex];
 
   if (currentQuestionIndex >= shuffledQuestions.length) {
@@ -73,6 +90,9 @@ const Quiz: React.FC = () => {
 
   return (
     <div className="container">
+      <button className="dark-mode-toggle" onClick={toggleMode}>
+        {mode === "light" ? "🌙" : mode === "dark" ? "🌿" : "☀️"}
+      </button>
       <h2 className="question">{currentQuestion.question}</h2>
       <div className="options">
         {currentQuestion.options.map((option, index) => (

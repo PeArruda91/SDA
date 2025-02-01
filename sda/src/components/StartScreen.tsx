@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import logo from "../assets/logo.png";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Atlas from "./Atlas";
@@ -10,6 +10,23 @@ interface StartScreenProps {
 
 const StartScreen: React.FC<StartScreenProps> = ({ onStartQuiz }) => {
   const [activeTab, setActiveTab] = useState("quiz");
+  const [mode, setMode] = useState("light");
+
+  useEffect(() => {
+    const savedMode = localStorage.getItem("mode");
+    if (savedMode) {
+      setMode(savedMode);
+      document.body.classList.add(`${savedMode}-mode`);
+    }
+  }, []);
+
+  const toggleMode = () => {
+    const newMode = mode === "light" ? "dark" : mode === "dark" ? "relax" : "light";
+    setMode(newMode);
+    document.body.classList.remove("light-mode", "dark-mode", "relax-mode");
+    document.body.classList.add(`${newMode}-mode`);
+    localStorage.setItem("mode", newMode);
+  };
 
   const renderTabContent = () => {
     switch (activeTab) {
@@ -62,6 +79,9 @@ const StartScreen: React.FC<StartScreenProps> = ({ onStartQuiz }) => {
           <span>Redes Sociais</span>
         </button>
       </div>
+      <button className="dark-mode-toggle" onClick={toggleMode}>
+        {mode === "light" ? "🌙" : mode === "dark" ? "🌿" : "☀️"}
+      </button>
     </div>
   );
 };

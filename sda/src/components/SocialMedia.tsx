@@ -1,39 +1,37 @@
 import React from "react";
+import { FaInstagram, FaWhatsapp, FaFacebook } from "react-icons/fa";
 
 const SocialMedia: React.FC = () => {
   return (
     <div className="social-media">
       <h2>Redes Sociais</h2>
       <p>Entre em contato conosco:</p>
-      <ul>
-        <li>
-          <a
-            href="https://www.instagram.com/seuperfil"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Instagram
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://wa.me/seunumerodetelefone"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            WhatsApp
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.facebook.com/seupagina"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Facebook
-          </a>
-        </li>
-      </ul>
+      <div className="social-buttons">
+        <a
+          className="social-button highlight"
+          href="https://www.instagram.com/seuperfil"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaInstagram />
+        </a>
+        <a
+          className="social-button highlight"
+          href="https://wa.me/seunumerodetelefone"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaWhatsapp />
+        </a>
+        <a
+          className="social-button highlight"
+          href="https://www.facebook.com/seupagina"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaFacebook />
+        </a>
+      </div>
     </div>
   );
 };

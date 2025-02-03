@@ -1,0 +1,281 @@
+body.dark-mode {
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+}
+
+body.relax-mode {
+  background-color: #e0f7fa;
+  color: #004d40;
+}
+
+body.dark-mode .quiz-card,
+body.dark-mode .start-container {
+  background-color: #333;
+  border-color: #555;
+  color: #f5f5f5;
+}
+
+body.relax-mode .quiz-card,
+body.relax-mode .start-container {
+  background-color: #b2ebf2;
+  border-color: #004d40;
+  color: #004d40;
+}
+
+body.dark-mode .option-button {
+  background-color: #444;
+  color: #f5f5f5;
+  border-color: #888;
+}
+
+body.relax-mode .option-button {
+  background-color: #b2ebf2;
+  color: #004d40;
+  border-color: #004d40;
+}
+
+body.dark-mode .option-button:hover {
+  background-color: #555;
+  border-color: #aaa;
+}
+
+body.relax-mode .option-button:hover {
+  background-color: #80deea;
+  border-color: #004d40;
+}
+
+body.dark-mode .option-button.correct {
+  background-color: #388e3c;
+  color: #f5f5f5;
+}
+
+body.relax-mode .option-button.correct {
+  background-color: #80cbc4;
+  border-color: #004d40;
+  color: #004d40;
+}
+
+body.dark-mode .option-button.incorrect {
+  background-color: #d32f2f;
+  color: #f5f5f5;
+}
+
+body.relax-mode .option-button.incorrect {
+  background-color: #ffccbc;
+  border-color: #004d40;
+  color: #004d40;
+}
+
+body.dark-mode .modal-content {
+  background-color: #333;
+  color: #f5f5f5;
+}
+
+body.relax-mode .modal-content {
+  background-color: #b2ebf2;
+  color: #004d40;
+}
+
+body.dark-mode .modal-button {
+  background-color: #444;
+  color: #f5f5f5;
+}
+
+body.relax-mode .modal-button {
+  background-color: #004d40;
+  color: #e0f7fa;
+}
+
+body.dark-mode .modal-button:hover {
+  background-color: #555;
+}
+
+body.relax-mode .modal-button:hover {
+  background-color: #004d40;
+}
+
+body.dark-mode .start-title {
+  color: #f5f5f5;
+}
+
+body.relax-mode .start-title {
+  color: #004d40;
+}
+
+body.dark-mode .start-subtitle {
+  color: #f5f5f5;
+}
+
+body.relax-mode .start-subtitle {
+  color: #004d40;
+}
+
+body.dark-mode .start-button,
+body.dark-mode .back-button {
+  background-color: #444;
+  color: #f5f5f5;
+}
+
+body.relax-mode .start-button,
+body.relax-mode .back-button {
+  background-color: #004d40;
+  color: #e0f7fa;
+}
+
+body.dark-mode .start-button:hover,
+body.dark-mode .back-button:hover {
+  background-color: #555;
+}
+
+body.relax-mode .start-button:hover,
+body.relax-mode .back-button:hover {
+  background-color: #004d40;
+}
+
+body.dark-mode .start-button[data-tooltip]:hover:after {
+  background-color: #555;
+  color: #f5f5f5;
+}
+
+body.relax-mode .start-button[data-tooltip]:hover:after {
+  background-color: #80deea;
+  color: #004d40;
+}
+
+body.dark-mode .timer {
+  color: #f5f5f5;
+}
+
+body.relax-mode .timer {
+  color: #004d40;
+}
+
+body.dark-mode .footer {
+  color: #f5f5f5;
+}
+
+body.relax-mode .footer {
+  color: #004d40;
+}
+
+body.dark-mode .social-icons a {
+  color: #f5f5f5;
+}
+
+body.relax-mode .social-icons a {
+  color: #004d40;
+}
+
+body.dark-mode .social-button.highlight {
+  background-color: transparent;
+  color: #f5f5f5;
+  border-color: transparent;
+}
+
+body.relax-mode .social-button.highlight {
+  background-color: transparent;
+  color: #e0f7fa;
+  border-color: transparent;
+}
+
+body.dark-mode .social-button.highlight:hover {
+  background-color: transparent;
+}
+
+body.relax-mode .social-button.highlight:hover {
+  background-color: transparent;
+}
+
+body.dark-mode .dark-mode-toggle {
+  background-color: #444;
+  color: #f5f5f5;
+}
+
+body.relax-mode .dark-mode-toggle {
+  background-color: #004d40;
+  color: #e0f7fa;
+}
+
+body.dark-mode .dark-mode-toggle:hover {
+  background-color: #555;
+}
+
+body.relax-mode .dark-mode-toggle:hover {
+  background-color: #004d40;
+}
+
+body.dark-mode .tab-button {
+  background-color: #444;
+  color: #f5f5f5;
+}
+
+body.relax-mode .tab-button {
+  background-color: #004d40;
+  color: #e0f7fa;
+}
+
+body.dark-mode .tab-button:hover {
+  background-color: #555;
+}
+
+body.relax-mode .tab-button:hover {
+  background-color: #004d40;
+}
+
+body.dark-mode .tab-button span {
+  color: #f5f5f5;
+}
+
+body.relax-mode .tab-button span {
+  color: #e0f7fa;
+}
+
+body.dark-mode .help-button {
+  color: #f5f5f5;
+  border-color: #f5f5f5;
+}
+
+body.relax-mode .help-button {
+  color: #004d40;
+  border-color: #004d40;
+}
+
+body.dark-mode .help-button:hover {
+  background-color: #555;
+}
+
+body.relax-mode .help-button:hover {
+  background-color: #80deea;
+}
+
+body.dark-mode .atlas li {
+  background-color: #444;
+  color: #f5f5f5;
+  border-color: #888;
+}
+
+body.relax-mode .atlas li {
+  background-color: #b2ebf2;
+  color: #004d40;
+  border-color: #004d40;
+}
+
+body.dark-mode .atlas li:hover {
+  background-color: #555;
+  border-color: #aaa;
+}
+
+body.relax-mode .atlas li:hover {
+  background-color: #80deea;
+  border-color: #004d40;
+}
+
+body.dark-mode .atlas li div {
+  background-color: #333;
+  border-color: #555;
+}
+
+body.relax-mode .atlas li div {
+  background-color: #b2ebf2;
+  border-color: #004d40;
+}
